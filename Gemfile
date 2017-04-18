@@ -6,10 +6,11 @@ git_source(:github) do |repo_name|
 end
 
 gem 'bootstrap-sass', '~> 3.3.6'
+gem 'carrierwave'
 gem 'coffee-rails', '~> 4.2'
 gem 'font-awesome-sass'
-gem 'jbuilder', '~> 2.5'
 gem 'jquery-rails'
+gem 'jbuilder', '~> 2.5'
 gem 'pg'
 gem 'puma', '~> 3.0'
 gem 'rails', '~> 5.0.2'
@@ -21,6 +22,7 @@ gem 'uglifier', '>= 1.3.0'
 group :development, :test do
   gem 'better_errors'
   gem 'byebug', platform: :mri
+  gem 'rspec-rails'
 end
 
 group :development do
